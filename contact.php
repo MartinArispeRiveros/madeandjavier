@@ -1,7 +1,6 @@
 <?php
-
-// $to = "madelleine.mirabal.cano@gmail.com","hormi.ps@gmail.com";
-$to = "martinarisperiveros@gmail.com";
+// $to = "martinarisperiveros@gmail.com";
+$to = "madelleine.mirabal.cano@gmail.com","hormi.ps@gmail.com";
 $subject = "Contact from: " . $_POST["name"] . ' ' . $_POST["reason"];
 $message = 'Nombre: ' . $_POST["name"] . '<br />'
         . $_POST["message"] . $_POST["message"];
